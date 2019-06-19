@@ -1,13 +1,11 @@
 class Strings
-  def palindrome()
-    puts "Enter a string!"
-    user_input = gets.chomp
-    user_input.downcase!
-    if user_input.include?(" ")
-      user_input.gsub!(/ /, "")
+  def palindrome(s)
+    
+    if s.include?(" ")
+      s.gsub!(/ /, "")
     end
 
-    if user_input == user_input.reverse
+    if s == s.reverse
       print "Is a pallindrome"
     else
       print "Is not a pallindrome"
@@ -18,4 +16,6 @@ end
 
 
 a1 = Strings.new
-a1.palindrome
+s = ARGV[0].dup
+s.downcase!
+a1.palindrome(s)
