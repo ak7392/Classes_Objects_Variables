@@ -1,0 +1,15 @@
+Name of the product: Chocolates
+Imported?: yes
+Exempted from sales tax?: yes
+Price: 120
+Do you want to add more items to your list(y/n): y
+Name of the product: Potato Chips
+Imported?: no
+Exempted from sales tax?: yes
+Price: 100
+Do you want to add more items to your list(y/n): y
+Name of the product: Perfume
+Imported?: yes
+Exempted from sales tax? no
+Price: 150
+Do you want to add more items to your list(y/n): n
